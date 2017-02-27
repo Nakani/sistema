@@ -1,0 +1,1 @@
+SELECT e.name, d.dept_name, e.time_on_dept AS (DATEDIFF(day, de.from_date, de.to_date))  FROM employees e, departments d, dept_emp de WHERE d.dept_no = de.dept_no AND e.emp_no = de.emp_no ORDER BY e.time_on_dept
