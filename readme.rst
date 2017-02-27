@@ -28,6 +28,16 @@ usuario: outros@admin.com
 senha: outros
 
 ###################
+Uso da Agenda
+###################
+
+A agenda foi usado a API calendar.js uma api bem prática, e fácil de usar tanto para desenvolvedore quanto usuário
+
+para visualizar a lista de reserva você pode ir em dashboard ou Gerenciar sala > visualizar agenda 
+e no canto superior direito existe as opções de visualiazar por mês semana dia e o principal que eu quero falar que é lista ao clicar em lista e após clicar em hoje no canto superior esquerdo ele vai listar todos os horários disponíveis.
+Faltou desenvolver a exclusão e edição destes eventos! 
+
+###################
 Observações
 ###################
 sistema também responsivo para mobile!
