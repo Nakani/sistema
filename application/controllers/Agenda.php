@@ -102,7 +102,6 @@ class Agenda extends CI_Controller {
 						redirect(base_url().'agenda/reserva', 'refresh');
 					}
 				}else{
-					die('sdss');
 					$this->session->set_flashdata('message_fail','Horário não disponivel');
 					redirect(base_url().'agenda/reserva', 'refresh');
 				}
