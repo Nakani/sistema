@@ -14,6 +14,7 @@
                             <?php } ?>
                                 <li><a href="<?php echo base_url('sala/listar')?>">Listar Salas</a></li>
                                 <li><a href="<?php echo base_url('agenda/reserva')?>">Reservar salas</a></li>
+                                <li><a href="<?php echo base_url('agenda/listar')?>">Listar reservas</a></li>
                                 <li><a href="<?php echo base_url('agenda')?>">Visualizar Agenda</a></li>
                             </ul>
                         </li>
